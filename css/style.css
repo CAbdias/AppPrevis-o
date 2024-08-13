@@ -1,0 +1,59 @@
+/*Configurações Globais*/
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: "Urubunt", sans-serif;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+/*Configurações do Container*/
+#container{
+background-color: black;
+font-size: 20px;
+color: white;
+padding: 20px;
+border-radius: 10px;
+width: 95%;
+max-width: 350px;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+
+}
+.titulo{
+    margin-top: 15px;
+}
+.temperatura{
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+.box-menor{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.umidade{
+    margin-top: 10px;
+}
+.texto.previsao{
+    text-transform: capitalize;
+}
